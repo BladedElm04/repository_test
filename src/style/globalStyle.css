@@ -1,0 +1,16 @@
+@import "./components/containers.css";
+@import "./components/buttons.css";
+@import "./components/texts.css";
+
+:root {
+    --brand-1: #2d2da4;
+
+    --gray1: #010101;
+    --gray2: #101010;
+    --gray3: #252525;
+    --gray4: #454545;
+    --gray5: #606060;
+    --gray6: #808080;
+    --gray7: #aaaaaa;
+    --gray8: #cccccc;
+}
