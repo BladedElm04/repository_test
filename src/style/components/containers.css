@@ -1,7 +1,10 @@
 .header__container {
     display: flex;
-    width: 20%;
+    width: 15%;
     flex-direction: column;
+    background-color: var(--gray1);
+    height: 100%;
+    position: fixed;
 }
 
 .img__container {
@@ -13,9 +16,39 @@
 }
 
 .list-item__container {
+    display: grid;
+    margin-top: 1rem;
+    text-align: center;
+    gap: 1rem;
+}
+
+.nav-icons__container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.icon__container {
+    width: 20%;
+}
+
+.main__container {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    margin-left: 20%;
+    width: 100%;
+    background-image: url(../../assets/img/Daco_916397.png);
+}
+
+.title__container {
+    margin: 5rem 0 0 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    gap: 1rem;
+    gap: 2rem;
+}
+
+.about__container {
+    margin-top: 5rem;
 }

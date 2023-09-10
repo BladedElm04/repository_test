@@ -3,7 +3,8 @@
 @import "./components/texts.css";
 
 :root {
-    --brand-1: #2d2da4;
+    --brand-1: #b22206;
+    --brand-2: #f27151;
 
     --gray1: #010101;
     --gray2: #101010;
@@ -13,4 +14,16 @@
     --gray6: #808080;
     --gray7: #aaaaaa;
     --gray8: #cccccc;
+    --gray9: #dedede;
+
+    --white: #ffffff;
+
+    --border-radius: 0.5rem;
+}
+
+body {
+    background-color: var(--gray2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    box-sizing: border-box;
 }

@@ -1,0 +1,31 @@
+.text1 {
+    font-size: 1.5rem;
+    color: var(--gray5);
+}
+
+.text2 {
+    font-size: 1.2rem;
+    color: var(--gray6);
+}
+
+.text3 {
+    font-size: 1rem;
+    color: var(--gray5);
+}
+
+.text4 {
+    font-size: 0.75rem;
+    color: var(--gray5);
+}
+
+.title1 {
+    font-size: 5rem;
+    color: var(--gray9);
+    font-weight: 600;
+}
+
+.title2 {
+    font-size: 1.75rem;
+    color: var(--gray9);
+    font-weight: 600;
+}
